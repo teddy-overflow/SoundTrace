@@ -1,0 +1,14 @@
+[project]
+name = "soundtrace"
+version = "0.1.0"
+description = "Приложение для поиска музыкальных произведений по аудиофрагменту"
+requires-python = ">=3.14"
+dependencies = [
+    "PySide6",
+    "pyacoustid",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]

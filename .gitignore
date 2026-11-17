@@ -1,0 +1,30 @@
+# Виртуальное окружение
+.venv/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+
+# Тестирование
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Локальные данные приложения
+data/library/*
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Сборка проекта
+build/
+dist/
+*.egg-info/
+
+# Настройки IDE
+.vscode/
+.idea/
+
+# Системные файлы Windows
+Thumbs.db
+Desktop.ini
