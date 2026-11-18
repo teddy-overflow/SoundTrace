@@ -28,3 +28,4 @@ dist/
 # Системные файлы Windows
 Thumbs.db
 Desktop.ini
+tools/fpcalc.exe
